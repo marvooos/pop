@@ -116,6 +116,7 @@ color: #795a76;
     color: #FFFFFF;
     font-weight: 400;
     font-size: 45px;
+    font-family: 'Cormorant Garamond';
     margin-left: 40px;
 margin-bottom: 22px;
  }
@@ -144,6 +145,7 @@ margin-top: 75px;
    margin-left: 622px;
    font-weight: 400;
    font-size: 14px;
+   color: #B99BB6;
    font-family: 'Roboto', sans-serif;
  }
 
@@ -158,12 +160,10 @@ margin-top: 75px;
    font-family: 'Cormorant Garamond';
    font-weight: 400;
 font-size: 26px;
-margin-bottom: 17px;
+color: #795a76;
 transition:   0.30s;
  }
- .info_list_p:hover{
-   color: #795a76;
- }
+
  .info_list_knop{
     margin-left: 650px;
     border: 1px solid #B99BB6;
@@ -225,7 +225,7 @@ height: 427px;
    font-weight: 400;
    font-size: 25px;
    color: #FFFFFF;
-   font-family: 'Roboto', sans-serif;
+   font-family: 'Cormorant Garamond';
 margin-bottom: 6px;
 margin-left: 23px;
 margin-top: 23px;
@@ -233,6 +233,7 @@ margin-top: 23px;
  .info_list_block_p{
    color: #FFFFFF;
    margin-left: 23px;
+   font-family: 'Cormorant Garamond';
    font-weight: 400;
    font-size: 17px;
  }
@@ -264,7 +265,7 @@ margin-bottom: 39px;
 margin-left: 112px;
 border: 1px solid #D7B7D4;
 
-border-width: 0px 0px 3px 0px;
+border-width: 0px 0px 1px 0px;
 
 border-color: #D7B7D4;
 
@@ -344,7 +345,7 @@ margin-left: 60px;
    margin-left: 112px;
    border: 1px solid #D7B7D4;
    
-   border-width: 0px 0px 3px 0px;
+   border-width: 0px 0px 1px 0px;
    
    border-color: #D7B7D4;
    
@@ -470,6 +471,14 @@ margin-left: 60px;
             
             
             }
+            .text_NEWSLETTER_link_input::placeholder {
+               color: #CEB3CB;
+
+            }
+
+
+
+
             .info_menu_block_text3{
                width: 486px;
             height: 240px;
@@ -508,7 +517,7 @@ margin-bottom: 48.75px;
    width: 155px;
    height: 70px;
    margin-top: 6px;
-   margin-left: 97.5px;
+   margin-left: 117.5px;
 
  }
 
@@ -516,9 +525,12 @@ margin-bottom: 48.75px;
    width:180px;
    height: 70px;
    margin-top: 6px;
-   margin-left: 116.5px;
+  
+   margin-left: 113.5px;
  }
-
+ input::placeholder {
+   color: rgb(255, 255, 255);
+ }
 
 
 .flex_block_info{
@@ -844,7 +856,7 @@ font-size: 18px;
    width: 208px;
    height: 60px;
    display: inline-block;
-   border: 2px solid #CEB3CB;;
+   border: 1px solid #CEB3CB;;
 
    font-family: 'Cormorant Garamond';
    font-weight: 400;
@@ -901,8 +913,8 @@ color: #000000;
 
 .info_NEWSLETTER_knop_p3{
    font-family: 'Cormorant Garamond';
-   margin-left: 61px;
-   margin-top: 17px;
+   margin-left: 52px;
+   margin-top: 20px;
    transition: color 0.30s;
    color: #ffffff;
    position: relative;
@@ -1048,7 +1060,7 @@ margin-bottom: 10px;
  .header_man_li_nizg{
    font-weight: 400;
 font-size: 12px;
-   font-family: 'Cormorant Garamond';
+font-family: 'Roboto';
    margin-right: 40px;
    color: #ffffff;
    text-decoration: none;
@@ -1076,3 +1088,79 @@ font-size: 12px;
    height: 36px;
    margin-top: -33px;
  }
+
+
+
+
+
+
+
+
+
+
+ .intro_man2{
+   margin-bottom: 75px;
+    }
+
+ 
+
+
+
+
+
+
+ .intro_man_blok2{
+   height: 817px;
+   background-color: #D6BBD3;
+}
+
+.intro_man_theblokimg2{
+    background-color: 
+    #B08EAD;
+    width: 440px;
+    height: 450px;
+    position: relative;
+    top: 108px;
+
+}
+.intro_man_theblok2{
+    position: relative;
+   display: flex;
+   margin-left: 178px;
+   top: 72px;
+}
+
+
+.intro_man_theblokimg_h22{
+   color: #FFFFFF;
+   font-weight: 400;
+   font-size: 14px;
+ 
+   margin-bottom: 10px;
+   margin-left: 40px;
+   margin-top: 124px;
+   font-family: 'Roboto', sans-serif;
+}
+.intro_man_theblokimg_p2{
+   color: #FFFFFF;
+   font-weight: 400;
+   width: 325px;
+   line-height: 55px;
+   font-size: 45px;
+   font-family: 'Cormorant Garamond';
+   margin-left: 40px;
+margin-bottom: 22px;
+}
+.intro_man_theblokimg_a2{
+   color: #FFFFFF;
+   font-weight: 400;
+   font-size: 14px;
+   margin-left: 40px;
+   font-family: 'Roboto', sans-serif;
+}
+
+.intro_man_theblokimg_knop2{
+   border-style: solid;
+   border-width: 0px 1px 0px 0px;
+   border-color: #A4ACAD;
+}
